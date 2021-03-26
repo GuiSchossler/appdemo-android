@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BotaoPrincipal" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:backgroundTint">@color/teal_200</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BotaoPersonalizado" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#A5D370</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BotaoPersonalizado2" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#58BD55</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TituloNegrito" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TituloCampo" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BotaLogin" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#80DEEA</item>
+        <item name="android:backgroundTint">#813F51B5</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BotaLogin1" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#81D4FA</item>
+        <item name="android:backgroundTint">#CE93D8</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BotaLogin2" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#9FA8DA</item>
+        <item name="android:backgroundTint">#FFF59D</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BotaLogin3" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#A5D6A7</item>
+        <item name="android:backgroundTint">#F06292</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

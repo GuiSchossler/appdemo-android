@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculadoraActivity">
+
+    <!-- CAMPOS UM AO LADO DO OUTRO -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        style="@style/TituloNegrito"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtNumero1_calculadora"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/txtNumero2_calculadora"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSoma_calculadora"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            style="@style/BotaoPersonalizado2"/>
+
+        <!-- height = altura do botão
+            width = largura do botão -->
+
+        <Button
+            android:id="@+id/btnSubtrai_calculadora"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            style="@style/BotaoPersonalizado2"/>
+
+        <Button
+            android:id="@+id/btnMultiplica_calculadora"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            style="@style/BotaoPersonalizado2"/>
+
+        <Button
+            android:id="@+id/btnDivide_calculadora"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            style="@style/BotaoPersonalizado2"/>
+
+        <Button
+            android:id="@+id/btnLimpa_calculadora"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            style="@style/BotaoPersonalizado"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
