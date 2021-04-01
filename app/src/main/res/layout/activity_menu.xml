@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MenuActivity">
 
     <TextView
+        android:id="@+id/lblUsuario_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MENU"
@@ -25,14 +27,27 @@
         android:id="@+id/btnMain_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main"
+        android:text="OUTRA TELA"
         style="@style/BotaoPersonalizado2"/>
 
     <Button
         android:id="@+id/btnCalculadora_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculadora"
+        android:text="CALCULADORA"
         style="@style/BotaoPersonalizado2"/>
 
+    <Button
+        android:id="@+id/btnPix_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIX"
+        style="@style/BotaoPersonalizado2"/>
+
+    <Button
+        android:id="@+id/btnLogout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_logout"
+        style="@style/BotaoPersonalizado"/>
 </LinearLayout>
